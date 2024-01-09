@@ -1,0 +1,9 @@
+# config_gpu.yaml
+workerPoolSpecs:
+    machineSpec:
+        machineType: n1-standard-8
+        acceleratorType: nvidia-tesla-v100
+        acceleratorCount: 1
+    replicaCount: 1
+    containerSpec:
+        imageUri: gcr.io/awesome-tangent-410709/awesome-tangent-410709
