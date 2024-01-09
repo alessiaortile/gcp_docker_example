@@ -17,6 +17,8 @@ if __name__ == '__main__':
         data, digits.target, test_size=0.5, shuffle=False
     )
 
+    print(f"Train...:")
+
     # Learn the digits on the train subset
     clf.fit(X_train, y_train)
 
